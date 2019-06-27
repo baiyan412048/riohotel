@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Rio Hotal</title>
+</head>
+
+<body>
+  <div class="wrap index">
+    <header>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <div class="navbar__collapse">
+            <li><a class="navbar__link navbar__link--active" href="index.html">Home</a></li>
+            <li><a class="navbar__link" href="apartment.html">Our Apartment</a></li>
+            <li><a class="navbar__link" href="rio.html">Rio</a></li>
+            <li class="navbar__list--line"><a class="navbar__link" href="contact.html">Contact</a></li>
+          </div>
+          <li class="navbar__list--order-1"><a href="apartment.html"><button class="navbar__button"
+                type="button">Book</button></a></li>
+        </ul>
+        <button class="navbar__button navbar__button--switch" id="menuSwitch"><i class="fas fa-bars"></i></button>
+        <ul class="navbar__mobile navbar__close" id="menu">
+          <button class="mobile__button" id="menuClose"><i class="fas fa-times fa-2x"></i></button>
+          <li class="mobile__list"><a class="mobile__link mobile__link--active" href="index.html">Home</a></li>
+          <li class="mobile__list"><a class="mobile__link" href="apartment.html">Our Apartment</a></li>
+          <li class="mobile__list"><a class="mobile__link" href="rio.html">Rio</a></li>
+          <li class="mobile__list"><a class="mobile__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <div class="i_hero">
+          <p><img class="i_hero__img"
+              src="https://static.wixstatic.com/media/05e3dc_7c5c286e957d4aa6a00be967bebac2e3.png/v1/fill/w_60,h_6,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_7c5c286e957d4aa6a00be967bebac2e3.webp"
+              alt=""><span class="i_hero__txt">BE MY GUEST</span><img class="hero__img"
+              src="https://static.wixstatic.com/media/05e3dc_7c5c286e957d4aa6a00be967bebac2e3.png/v1/fill/w_60,h_6,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_7c5c286e957d4aa6a00be967bebac2e3.webp"
+              alt=""></p>
+          <h1 class="i_hero__title">Welcome to Rio</h1>
+        </div>
+      </section>
+    </header>
+    <main class="i_mainblock">
+      <article class="i_mainblock__info">
+        <ul class="i_searchblock">
+          <li class="i_searchblock__list"><label class="i_searchblock__input" for="">Chack in<input type="date"
+                value="2019-05-26"></label>
+          </li>
+          <li class="i_searchblock__list"><label class="i_searchblock__input" for="">Chack out<input type="date"
+                value="2019-05-29"></label>
+          </li>
+          <li class="i_searchblock__list"><label class="i_searchblock__input" for="">Adults<input type="number"
+                value="0"></label>
+          </li>
+          <li class="i_searchblock__list"><label class="i_searchblock__input" for="">Kids<input type="number"
+                value="0"></label>
+          </li>
+          <li class="i_searchblock__list">
+            <label class="i_searchblock__input" for="">　　
+              <a href="apartment.html"><button class="i_searchblock__button" type="button">Search</button></a>
+            </label>
+          </li>
+        </ul>
+        <section class="mobile__searchblock">
+          <div class="mobile__date">
+            <div>
+              <p>Check-In<i class="far fa-calendar ml-auto"></i></p>
+              <p>Select Dates</p>
+            </div>
+            <div>
+              <p>Check-Out<i class="far fa-calendar ml-auto"></i></p>
+              <p>Select Dates</p>
+            </div>
+          </div>
+          <div class="mobile__guest">
+            <p class="mobile__guest--line">Adults <span><i class="fas fa-minus mr-3"></i> 1 <i class="fas fa-plus ml-3"></i></span></p>
+            <p>Kids <span><i class="fas fa-minus mr-3"></i> 0 <i class="fas fa-plus ml-3"></i></span></p>
+          </div>
+          <button class="mobile__button">Search</button>
+        </section>
+        <section class="i_mainpoint">
+          <h2 class="i_mainpoint__title">A Home in the Heart of the City</h2>
+          <p class="hrline"></p>
+          <p class="i_mainpoint__txt">Stay in a beautiful highrise in Ipanema just off the beach close to many
+            world-class
+            cafes and restaurants. Enjoy Bossa Nova with a cold beer!</p>
+        </section>
+        <section class="i_bookblock">
+          <div class="i_bookblock__top">
+            <div class="i_bookblock__title">
+              <p>Our<br>Apartment</p>
+              <p class="hrline"></p>
+            </div>
+            <div class="top__img">
+            </div>
+          </div>
+          <div class="i_bookblock__bottom">
+            <div class="bottom__img">
+            </div>
+            <div class="i_bookblock__txt">
+              <p>The apartment is spacious with high ceilings, large windows, an open balcony and a beautiful view of
+                the beach. Stay cool with central A/C and wind-down comfortably in the queen sized bedroom.</p>
+              <a class="i_bookblock__link" href="apartment.html">BOOK NOW</a>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article class="i_mainblock__location">
+        <div class="i_location__top">
+          <div class="i_location__title">
+            <p>Location</p>
+            <p class="hrline"></p>
+          </div>
+          <div class="i_location__img">
+          </div>
+        </div>
+        <div class="i_location__txt">
+          <p>Conveniently located just opposite Leblon Beach in Ipanema, our apartment will sweep you into the charm
+            and excitements of Rio! Dine at one of our neighborhood’s many world-renowned restaurants, enjoy
+            fresh-squeezed juices from one of the colourful stalls along the beach, and don’t miss live bossy-nova
+            show in one of the local bars.</p>
+          <a class="i_location__link" href="contact.html">VIEW MAP</a>
+        </div>
+      </article>
+      <article class="i_mainblock__aboutus">
+        <div class="i_aboutus">
+          <div class="i_aboutus__img">
+          </div>
+          <section class="i_aboutus__info">
+            <h3>About Camila & Tiago</h3>
+            <p class="hrline"></p>
+            <p>Hi, my name is Camila and I’m a nutritionist from the south of Brazil. I moved to the beautiful Ipanema
+              neighborhood two years ago with my husband, Tiago. We live in a homie highrise just off the Leblon
+              Beach, but in the summer we travel!</p>
+            <a href="#"><span class="i_aboutus__link mr-3">STAY WITH US</span><span class="text-white"><i
+                  class="fas fa-chevron-right"></i></span></a>
+          </section>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="footerblock">
+        <ul class="footerblock__list">
+          <li class="footerblock__contact">
+            <h4 class="footerblock__title">
+              <a class="footerblock__link" href="#">Contact Us</a>
+            </h4>
+            <p class="hrline"></p>
+            <p>Ask us anything! We’re here to answer any questions you have.</p>
+            <p>Email: info@mysite.com</p>
+          </li>
+          <li class="footerblock__social">
+            <h4 class="footerblock__title">Follow Us</h4>
+            <p class="hrline"></p>
+            <p>
+              <a class="text-dark" href="#"><i class="fab fa-twitter mr-3"></i></a>
+              <a class="text-dark" href="#"><i class="fab fa-facebook-f mr-3"></i></a>
+              <a class="text-dark" href="#"><i class="fab fa-instagram mr-3"></i></a>
+            </p>
+          </li>
+          <li class="footerblock__subscribe">
+            <h4 class="footerblock__title">
+              Subscribe for Updates & Offers</h4>
+            <p class="hrline"></p>
+            <p>
+              <input type="email" placeholder="Enter your email here*">
+              <a href="apartment.html"><button type="button">Subscribe Now</button></a>
+            </p>
+          </li>
+        </ul>
+        <p>版型為 Wix.com 版權所有，此僅作為練習使用，無任何商業用途</p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/all.js"></script>
+</body>
+
+</html>

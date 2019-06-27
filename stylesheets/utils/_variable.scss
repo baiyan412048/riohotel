@@ -1,0 +1,65 @@
+$white: #fff !default;
+
+$black: #2f2e2e !default;
+$dark: #868682 !default;
+$gray: #E5EBED !default;
+
+$yellow: #fec303 !default;
+$green: #6aa3a2 !default;
+$cyan: #e5ebed !default;
+
+.text-white {
+  color: $white !important;
+}
+
+.text-yellow {
+  color: $yellow !important;
+}
+
+.text-dark {
+  color: $dark !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-48 {
+  font-size: 48px;
+}
+
+.fz-64 {
+  font-size: 64px;
+}
+
+.fz-72 {
+  font-size: 72px;
+}

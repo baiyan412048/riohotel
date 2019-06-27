@@ -1,0 +1,132 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  @include media-breakpoint-xs {
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+
+    & li {
+      order: 2;
+    }
+
+    &--order-1 {
+      order: 1
+    }
+
+    &--line {
+      border-right: 2px solid $white;
+    }
+  }
+
+  &__mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding: 50px;
+    background-color: rgba(#fff, 0.9);
+    transition: all 0.4s ease 0s;
+
+    .mobile {
+
+      &__list {
+        width: 100%;
+        margin: 30px 0;
+        text-align: center;
+      }
+
+      &__button {
+        background: $dark;
+        color: $white;
+        padding: 5px 10px;
+        outline: none;
+        border: none;
+        @include font-varela();
+        font-size: 16px;
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+
+        &:hover {
+          color: $dark;
+          background: #fff;
+        }
+      }
+
+      &__link {
+        @include link($green, $dark);
+        font-size: 28px;
+        padding: 30px 0;
+
+        &--active {
+          &:hover {
+            color: $green;
+          }
+        }
+      }
+    }
+  }
+
+  &__open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__close {
+    display: none;
+  }
+
+  &__collapse {
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-xs {
+      display: none;
+    }
+  }
+
+  &__link {
+    margin: 0 40px;
+    @include link($white, $dark);
+
+    &--active {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  &__button {
+    background: $dark;
+    color: $white;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    margin: 0 40px;
+    @include font-varela();
+    font-size: 16px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+
+    &:hover {
+      color: $dark;
+      background: #fff;
+    }
+
+    &--switch {
+      display: none;
+
+      @include media-breakpoint-xs {
+        display: block;
+      }
+    }
+  }
+}

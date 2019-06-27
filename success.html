@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Rio Hotal</title>
+</head>
+
+<body>
+  <div class="wrap apartment">
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <div class="navbar__collapse">
+              <li><a class="navbar__link navbar__link--active" href="index.html">Home</a></li>
+              <li><a class="navbar__link" href="apartment.html">Our Apartment</a></li>
+              <li><a class="navbar__link" href="rio.html">Rio</a></li>
+              <li class="navbar__list--line"><a class="navbar__link" href="contact.html">Contact</a></li>
+            </div>
+            <li class="navbar__list--order-1"><a href="apartment.html"><button class="navbar__button"
+                  type="button">Book</button></a></li>
+          </ul>
+          <button class="navbar__button navbar__button--switch" id="menuSwitch"><i class="fas fa-bars"></i></button>
+          <ul class="navbar__mobile navbar__close" id="menu">
+            <button class="mobile__button" id="menuClose"><i class="fas fa-times fa-2x"></i></button>
+            <li class="mobile__list mobile__list--active"><a class="mobile__link mobile__link--active"
+                href="index.html">Home</a></li>
+            <li class="mobile__list"><a class="mobile__link" href="apartment.html">Our Apartment</a></li>
+            <li class="mobile__list"><a class="mobile__link" href="rio.html">Rio</a></li>
+            <li class="mobile__list"><a class="mobile__link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <section>
+          <div class="hero">
+            <h1 class="hero__title">Our Apartment</h1>
+            <img
+              src="https://static.wixstatic.com/media/05e3dc_7c5c286e957d4aa6a00be967bebac2e3.png/v1/fill/w_60,h_6,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_7c5c286e957d4aa6a00be967bebac2e3.webp"
+              alt="">
+          </div>
+        </section>
+      </header>
+      <main class="s_mainblock">
+        <article class="desktop">
+          <header class="s_mainblock__title">
+            <h2>Your Room is Booked!</h2>
+            <p>Your reservation is complete.</p>
+          </header>
+          <section class="s_mainblock__info">
+            <div class="s_mainblock__guest">
+              <div class="s_mainblock__ordernumber">Your reservation number: <span>112233</span><br>A confirmation email
+                is on the
+                way.</div>
+              <table class="s_mainblock__checktime">
+                <tbody>
+                  <tr>
+                    <td>Check-In Time</td>
+                    <td>03:00 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Check-Out Time</td>
+                    <td>12:00 PM</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="s_mainblock__checktime">
+                <thead>
+                  <tr>
+                    <th colspan="2">Hotel Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Phone Number</td>
+                    <td>+1-234-5678910</td>
+                  </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td>hotels-support@wix.com</td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td>40 Hotel Street, New York, US, 4321</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="s_mainblock__room">
+              <div class="s_mainblock__img"></div>
+              <table class="b_mainblock__orderdetail b_mainblock__orderdetail--border">
+                <tbody>
+                  <tr>
+                    <th>Room Type</th>
+                    <td>Junior Suite</td>
+                  </tr>
+                  <tr>
+                    <th>Dates</th>
+                    <td>May 28-31, 2019</td>
+                  </tr>
+                  <tr>
+                    <th>No. of nights</th>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <th>Guests</th>
+                    <td>1 Adults</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="b_mainblock__orderdetail">
+                <tbody>
+                  <tr>
+                    <th>Subthtal</th>
+                    <td class="text-right">$750</td>
+                  </tr>
+                  <tr>
+                    <th>Tax(20%)</th>
+                    <td class="text-right">$150</td>
+                  </tr>
+                </tbody>
+                <tr class="fz-18">
+                  <th>Total</th>
+                  <td class="text-right">$900</td>
+                </tr>
+              </table>
+            </div>
+          </section>
+        </article>
+        <article class="mobile">
+          <div class="mobile__title">
+            <p><i class="far fa-check-circle fa-3x"></i></p>
+            <p>Your Room is Booked!</p>
+            <p>A confirmation email is on the way.</p>
+          </div>
+          <div class="mobile__ordernumber">
+            <p>Your reservation number: <span>112233</span></p>
+          </div>
+        </article>
+      </main>
+    </div>
+    <footer>
+      <div class="footerblock">
+        <ul class="footerblock__list">
+          <li class="footerblock__contact">
+            <h4 class="footerblock__title">
+              <a class="footerblock__link" href="#">Contact Us</a>
+            </h4>
+            <p class="hrline"></p>
+            <p>Ask us anything! We’re here to<br>answer any questions you have.</p>
+            <p>Email: info@mysite.com</p>
+          </li>
+          <li class="footerblock__social">
+            <h4 class="footerblock__title">Follow Us</h4>
+            <p class="hrline"></p>
+            <p>
+              <a class="text-dark" href="#"><i class="fab fa-twitter mr-3"></i></a>
+              <a class="text-dark" href="#"><i class="fab fa-facebook-f mr-3"></i></a>
+              <a class="text-dark" href="#"><i class="fab fa-instagram mr-3"></i></a>
+            </p>
+          </li>
+          <li class="footerblock__subscribe">
+            <h4 class="footerblock__title">
+              Subscribe for Updates & Offers</h4>
+            <p class="hrline"></p>
+            <p>
+              <input type="email" placeholder="Enter your email here*">
+              <button type="button">Subscribe Now</button>
+            </p>
+          </li>
+        </ul>
+        <p>© Be my guest in Rio. Proudly created with Wix.com</p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/all.js"></script>
+</body>
+
+</html>

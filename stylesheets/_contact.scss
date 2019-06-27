@@ -1,0 +1,76 @@
+.c_mainblock {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  background-color: $white;
+
+  &__contact,
+  &__map {
+    display: flex;
+    color: $dark;
+
+    @include media-breakpoint-xs {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__contact {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    width: 300px;
+    padding: 0 30px;
+    font-size: 28px;
+
+    @include media-breakpoint-xs {
+      padding: 0;
+    }
+
+    &>div {
+      font-size: 15px;
+      line-height: 18px;
+
+      @include media-breakpoint-xs {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 680px;
+
+    &>input,
+    &>textarea {
+      resize: none;
+      width: 100%;
+      height: 30px;
+      border: none;
+      outline: none;
+      background: $cyan;
+      color: $dark;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      @include font-varela();
+      font-size: 15px;
+    }
+
+    &>textarea {
+      height: 150px;
+    }
+  }
+
+  &__link {
+    @include link($green, $dark);
+  }
+
+  &__img {
+    width: 680px;
+    height: 260px;
+    background-image: url('../img/map.JPG');
+    @include bg-cover;
+  }
+}

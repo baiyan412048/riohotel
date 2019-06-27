@@ -1,0 +1,51 @@
+@import 'utils/variable';
+@import 'mixins/mixins';
+
+@import 'utils/reset';
+@import 'modules/navbar';
+@import 'modules/hero';
+@import 'modules/footer';
+
+@import 'index';
+@import 'apartment';
+@import 'rio';
+@import 'contact';
+@import 'detail';
+@import 'booking';
+@import 'success';
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round|PT+Serif&display=swap');
+
+body {
+  font-family: 'Varela Round', sans-serif !important;
+  background-color: #e5ebed;
+  color: $black;
+}
+
+.hrline {
+  width: 35px;
+  height: 2px;
+  background-color: $yellow;
+  margin: 30px 0;
+}
+
+.wrap {
+  height: 600px;
+  @include bg-cover();
+}
+
+.index {
+  background-image: url('https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1398&q=80');
+}
+
+.apartment {
+  background-image: url('https://images.unsplash.com/photo-1547212543-d8d490fecd7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+}
+
+.rio {
+  background-image: url('https://static.wixstatic.com/media/05e3dc_6a7045deb65c43ccbc7983a81f2b4288.jpg/v1/fill/w_1920,h_610,al_c,q_85/05e3dc_6a7045deb65c43ccbc7983a81f2b4288.webp');
+}
+
+.contact {
+  background-image: url('https://images.unsplash.com/photo-1547212543-344cfbef90b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');
+}

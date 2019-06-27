@@ -1,0 +1,133 @@
+.b_mainblock {
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: $white;
+
+  &__info {
+    display: flex;
+
+    @include media-breakpoint-xs {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+    border-bottom: 1px solid $gray;
+  }
+
+  &__guest {
+    width: 650px;
+    border-right: 1px solid $gray;
+    padding: 30px 30px;
+
+    @include media-breakpoint-xs {
+      width: 100%;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  &__formgroup {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 48%;
+    margin-bottom: 20px;
+
+    & select {
+      margin-bottom: 68px;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  &__textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-top: 5px;
+  }
+
+  &__tip {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &__button {
+    display: block;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #33a2dc;
+    padding: 10px 50px;
+    margin: 20px 0 100px 0;
+    border-radius: 500px;
+    color: $white;
+    @include font-varela();
+    cursor: pointer;
+  }
+
+  &__warning {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 1px solid $gray;
+    line-height: 18px;
+
+    & i {
+      color: #33a2dc;
+    }
+  }
+
+  &__order {
+    width: 330px;
+    padding: 30px 30px;
+    order: 1;
+
+    @include media-breakpoint-xs {
+      order: 0;
+      width: 100%;
+    }
+  }
+
+  &__img {
+    height: 180px;
+    margin: 20px 0;
+    background-image: url('https://images.unsplash.com/photo-1517862774645-dd398fbfaffa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    @include bg-cover;
+  }
+
+  &__orderdetail {
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0;
+
+    &--border {
+      border-bottom: 1px solid $gray;
+    }
+
+    & th {
+      text-align: left;
+    }
+
+    & td {
+      width: 50%;
+      margin-bottom: 10px;
+      padding: 10px 0;
+      font-weight: 700;
+    }
+  }
+}
