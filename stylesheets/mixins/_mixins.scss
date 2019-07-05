@@ -1,21 +1,15 @@
 @mixin bg-cover() {
   background-size: cover;
   background-position: center center;
-}
-
-;
+};
 
 @mixin font-varela() {
   font-family: 'Varela Round', sans-serif !important;
-}
-
-;
+};
 
 @mixin font-pt {
   font-family: 'PT Serif', serif;
-}
-
-;
+};
 
 @mixin link($color, $hover) {
   color: $color;
@@ -58,4 +52,4 @@
   @media (min-width: $breakpoint) {
     @content
   }
-}
+};
