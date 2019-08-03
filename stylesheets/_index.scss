@@ -315,7 +315,7 @@
       &__img {
         width: 330px;
         height: 360px;
-        background-image: url('https://static.wixstatic.com/media/05e3dc_87b4e21658544ee6ade40077b0873c6d.jpg/v1/fill/w_330,h_359,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_87b4e21658544ee6ade40077b0873c6d.webp');
+        background-image: url('../src/host.png');
         @include bg-cover;
 
         @include media-breakpoint-xs {

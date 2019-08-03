@@ -67,10 +67,10 @@
     @include link($green, $dark);
   }
 
-  &__img {
-    width: 680px;
-    height: 260px;
-    background-image: url('../img/map.png');
-    @include bg-cover;
-  }
+  // &__img {
+  //   width: 680px;
+  //   height: 260px;
+  //   background-image: url('../img/map.png');
+  //   @include bg-cover;
+  // }
 }

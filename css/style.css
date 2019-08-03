@@ -419,6 +419,7 @@ a {
 .i_hero__title {
   margin-top: 20px;
   font-size: 65px;
+  text-align: center;
   color: #fff;
   font-family: 'PT Serif', serif;
 }
@@ -972,7 +973,7 @@ a {
 .i_mainblock__aboutus .i_aboutus__img {
   width: 330px;
   height: 360px;
-  background-image: url("https://static.wixstatic.com/media/05e3dc_87b4e21658544ee6ade40077b0873c6d.jpg/v1/fill/w_330,h_359,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_87b4e21658544ee6ade40077b0873c6d.webp");
+  background-image: url("../src/host.png");
   background-size: cover;
   background-position: center center;
 }
@@ -1437,7 +1438,7 @@ a {
 .r_mainblock__img {
   width: 100%;
   height: 240px;
-  background-image: url("https://static.wixstatic.com/media/05e3dc_659743ee417c40db8f928b24b54335af.jpg/v1/fill/w_817,h_241,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_659743ee417c40db8f928b24b54335af.webp");
+  background-image: url("../src/rio.png");
   background-size: cover;
   background-position: center center;
 }
@@ -1529,14 +1530,6 @@ a {
 
 .c_mainblock__link:hover {
   color: #868682;
-}
-
-.c_mainblock__img {
-  width: 680px;
-  height: 260px;
-  background-image: url("../img/map.JPG");
-  background-size: cover;
-  background-position: center center;
 }
 
 .d_mainblock {
@@ -2191,7 +2184,7 @@ body {
 }
 
 .rio {
-  background-image: url("https://static.wixstatic.com/media/05e3dc_6a7045deb65c43ccbc7983a81f2b4288.jpg/v1/fill/w_1920,h_610,al_c,q_85/05e3dc_6a7045deb65c43ccbc7983a81f2b4288.webp");
+  background-image: url("../src/rio_background.png");
 }
 
 .contact {
